@@ -1,6 +1,7 @@
 import React from 'react';
 import './homepage.styles.scss';
 import Directory from '../../directory-items/directory-items.component';
+
 export const HomePage = ()=>{
     return(
         <div className ='homepage' >
@@ -8,4 +9,4 @@ export const HomePage = ()=>{
         </div>
     );
 }
-export default HomePage;
+export default HomePage; 
